@@ -10,8 +10,6 @@ h2 {
   box-sizing: inherit;
 }
 
-.contianer {}
-
 .content {
   width: 70%;
   margin: 0 auto;
@@ -71,6 +69,7 @@ h1 {
 
 body {
   background-image: url(http://waalweb.com/wp-content/uploads/2015/09/Black-and-White-Wallpaper-MF.jpg);
+  background-attachment: fixed;
 }
 
 img.opening {
