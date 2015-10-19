@@ -10,8 +10,6 @@ h2 {
   box-sizing: inherit;
 }
 
-.contianer {}
-
 .content {
   width: 70%;
   margin: 0 auto;
@@ -70,13 +68,13 @@ h1 {
 }
 
 body {
-  background-image: url(http://waalweb.com/wp-content/uploads/2015/09/Black-and-White-Wallpaper-MF.jpg);
+  background-image: url(http://lifewallpaperz.com/images/2015/black-and-white/black-and-white-05.jpg);
   background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center; 
 }
 
-img.opening {
+.opening {
   width: 100%;
 }
 
@@ -86,8 +84,8 @@ img.opening {
   opacity: .9;
   font-family: helvetica, sans-serif;
   font-weight: bolder;
-  width:100%;
-  line-height:2em;
+  width: 100%;
+  line-height: 2em;
 }
 
 h3 {
