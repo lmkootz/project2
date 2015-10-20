@@ -40,6 +40,10 @@ li {
   text-transform: uppercase;
 }
 
+.wrapper {
+  opacity: .8;
+}
+
 .header {
   text-align: center;
   background-color: black;
@@ -47,10 +51,16 @@ li {
   font-family: Helvetica, sans-serif;
   text-transform: uppercase;
   letter-spacing: .15em;
-  opacity: .8;
   color: white;
   position: relative;
   top: 58px;
+}
+
+.nav {
+  background-color: black;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
 }
 
 h1 {
@@ -59,19 +69,11 @@ h1 {
   border-bottom: 1px double white;
 }
 
-.nav {
-  background-color: black;
-  width: 100%;
-  opacity: .8;
-  position: fixed;
-  z-index: 1;
-}
-
 body {
-  background-image: url(http://lifewallpaperz.com/images/2015/black-and-white/black-and-white-05.jpg);
-  background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center; 
+  background-image: url(http://images2.alphacoders.com/152/152152.jpg);
+  height: 100%;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .opening {
