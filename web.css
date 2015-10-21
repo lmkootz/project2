@@ -70,7 +70,7 @@ h1 {
 }
 
 body {
-  background-image: url(http://images2.alphacoders.com/152/152152.jpg);
+  background-image: url(https://cameracombo.files.wordpress.com/2012/03/spooky-1.jpg);
   height: 100%;
   background-size: cover;
   background-attachment: fixed;
@@ -80,16 +80,46 @@ body {
   width: 100%;
 }
 
-.option {
+.option1 {
   text-align: center;
   background-color: gray;
-  opacity: .9;
   font-family: helvetica, sans-serif;
   font-weight: bolder;
   width: 100%;
   line-height: 2em;
 }
 
+.option2 {
+  text-align: center;
+  background-color: gray;
+  font-family: helvetica, sans-serif;
+  font-weight: bolder;
+  width: 100%;
+  line-height: 2em;
+  margin-top: 10px;
+}
+
+a,
+.option1 .option2 {
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+}
+
 h3 {
   color: red;
+}
+
+div.option1:hover {
+  background-color: red;
+  color: black;
+}
+
+div.option2:hover {
+  background-color: red;
+  color: black;
 }
