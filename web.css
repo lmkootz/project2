@@ -108,6 +108,7 @@ a,
 
 a:hover {
   color: black;
+  background-color: red;
 }
 
 h3 {
